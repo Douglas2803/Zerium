@@ -12,11 +12,10 @@ export default {
         grey_1: "#919191",
         grey_2: "#636363",
         grey_3: "#CFCFCF",
-        linear_grey_1: "#CFCFCF",
       },
       fontFamily: {
-        sans: ['var(--font-main)'],
-      }
+        sans: ["var(--font-main)"],
+      },
     },
   },
   plugins: [],
