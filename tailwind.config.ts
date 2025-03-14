@@ -12,6 +12,8 @@ export default {
         grey_1: "#919191",
         grey_2: "#636363",
         grey_3: "#CFCFCF",
+        grey_4: "#323232",
+        yellow: "#F2762E",
       },
       fontFamily: {
         sans: ["var(--font-main)"],
