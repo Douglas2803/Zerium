@@ -9,6 +9,7 @@ export default {
     },
     extend: {
       colors: {
+        black_1: "#181818",
         grey_1: "#919191",
         grey_2: "#636363",
         grey_3: "#CFCFCF",
