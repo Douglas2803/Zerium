@@ -17,17 +17,24 @@ const Button = () => {
     <button
       onMouseEnter={mouseInHandler}
       onMouseLeave={mouseOuHandler}
-      className={`${isHover ? "bg-indigo-500" : "bg-grey_4"}
-      flex items-center gap-[8.78px] pl-[5.12px]
-      w-full h-[64px] rounded-[32px] text-2xl text-grey_3
-      `}
+      className={`
+      button
+      flex items-center gap-[8.78px] relative
+      w-full h-[64px] rounded-[32px] text-2xl text-grey_3 bg-grey_4
+      transition-colors duration-[600ms] ease-in-out
+      ${isHover ? "bg-yellow" : ""}
+     `}
     >
+      <a href="https://wa.me/5554981229448"></a>
+      
       <div
-        className="
-      flex justify-center items-center
-      bg-yellow rounded-full w-[51px] h-[51px]
-      custom_box_shadow
-      "
+        className={`
+        flex justify-center items-center absolute
+        bg-yellow rounded-full w-[51px] h-[51px] px-3
+        transition-colors duration-[600ms] ease-in-out left-[5.12px]
+        circle
+        ${isHover ? "bg-black_1" : "reverse box_shadow"}
+        `}
       >
         <img
           src="/assets/icons/arrow.svg"
@@ -35,7 +42,15 @@ const Button = () => {
           className="w-30 h-30 rotate-90"
         />
       </div>
-      <p>Pedir orçamento</p>
+      <p
+        className={`
+          pl-[65.85px] absolute
+          transition-colors duration-[600ms] ease-in-out
+          ${isHover ? "text-black_1" : ""}
+          `}
+      >
+        Pedir orçamento
+      </p>
     </button>
   );
 };
