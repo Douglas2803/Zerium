@@ -20,32 +20,36 @@ const Button = () => {
       className={`
       button
       flex items-center gap-[8.78px] relative
-      w-full h-[64px] rounded-[32px] text-2xl text-grey_3 bg-grey_4
+      w-[312px] h-[64px] rounded-[80px] text-2xl text-grey_3 bg-grey_4
+      sm:w-[320px]  sm:h-[65px] sm-item
+      xl:h-[82px] xl:w-[420px]
       transition-colors duration-[600ms] ease-in-out
       ${isHover ? "bg-yellow" : ""}
      `}
     >
-      <a href="https://wa.me/5554981229448"></a>
-      
       <div
         className={`
         flex justify-center items-center absolute
-        bg-yellow rounded-full w-[51px] h-[51px] px-3
+        rounded-full w-[51px] h-[51px] px-3
         transition-colors duration-[600ms] ease-in-out left-[5.12px]
+        sm:w-[55px] sm:h-[55px] sm:left-[5.5px]
+        xl:w-[70px] xl:h-[70px]
         circle
-        ${isHover ? "bg-black_1" : "reverse box_shadow"}
+        ${isHover ? "bg-black" : "reverse box_shadow bg-yellow"}
         `}
       >
         <img
           src="/assets/icons/arrow.svg"
           alt="Arrow Icon"
-          className="w-30 h-30 rotate-90"
+          className="w-full rotate-90"
         />
       </div>
       <p
         className={`
           pl-[65.85px] absolute
           transition-colors duration-[600ms] ease-in-out
+          sm:ml-1
+          xl:text-[34px] xl:pl-[80px]
           ${isHover ? "text-black_1" : ""}
           `}
       >
