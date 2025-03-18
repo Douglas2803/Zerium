@@ -19,6 +19,23 @@
 
     @keyframes moveRightReverse
         0%
-            left: calc( 100% - 51px - 5.12px) 
+            left: calc( 100% - 54px - 0px)
         100%
-            left: 5.12px
+            left: 0
+
+    @media (min-width: 640px)
+        @keyframes moveRightReverse
+
+            0%
+                left: calc( 100% - 51px - 5.12px)
+            100%
+                left: 5.12px
+
+    @media (min-width: 1280px)
+        @keyframes moveRightReverse
+
+            0%
+                left: calc( 100% - 70px - 5.12px)
+            100%
+                left: 5.12px
+
