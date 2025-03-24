@@ -10,7 +10,7 @@ const Sidebar = ({ active }: IPropsSidebar) => {
   }
 
   return (
-    <aside className="absolute text-white rounded-sm bg-quaternary top-[17%]  right-1 md:none z-10 shadow-2xl shadow-gray-950">
+    <aside className="absolute text-white rounded-sm bg-quaternary top-[17%]  right-[2%] md:right-[10%] xl:right-[10%] 8xl:right-[15%]  md:none z-10 shadow-2xl shadow-gray-950">
       <div className="p-4">
         <NavList className="flex flex-col divide-y-[1px]" />
       </div>
