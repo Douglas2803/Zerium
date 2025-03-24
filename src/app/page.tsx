@@ -1,7 +1,12 @@
+import Header from "./components/Header/page";
+import Section from "./components/Section/page";
+
 export default function Home() {
   return (
-    <main>
-      <div>Hello world!</div>
-    </main>
+    <>
+      <div className="hero_background"/>
+      <Header />
+      <Section />
+    </>
   );
 }
