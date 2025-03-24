@@ -19,6 +19,9 @@ export default {
       fontFamily: {
         sans: ["var(--font-main)"],
       },
+      screens: {
+        "8xl": "3200px",
+      },
     },
   },
   plugins: [],
