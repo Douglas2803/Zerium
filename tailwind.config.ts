@@ -1,11 +1,15 @@
-import type { Config } from "tailwindcss";
-
 export default {
   content: ["./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     container: {
       center: true,
       padding: "2rem",
+      screens: {
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
     },
     extend: {
       colors: {
@@ -25,4 +29,4 @@ export default {
     },
   },
   plugins: [],
-} satisfies Config;
+}
