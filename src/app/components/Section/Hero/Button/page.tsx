@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import "./style.sass";
+import Image from "next/image";
 
 const Button = () => {
   const [isHover, setIsHover] = useState(false);
@@ -21,7 +22,7 @@ const Button = () => {
       button
       flex items-center gap-[8.78px] relative
       w-[312px] h-[64px] rounded-[80px] text-2xl text-grey_3 bg-grey_4
-      sm:w-[320px]  sm:h-[65px] sm-item
+      sm:w-[300px]  sm:h-[65px] sm-item
       xl:h-[82px] xl:w-[420px]
       transition-colors duration-[600ms] ease-in-out
       ${isHover ? "bg-yellow" : ""}
@@ -31,18 +32,21 @@ const Button = () => {
         className={`
         flex justify-center items-center absolute
         rounded-full w-[51px] h-[51px] px-3
-        transition-colors duration-[600ms] ease-in-out left-[5.12px]
-        sm:w-[55px] sm:h-[55px] sm:left-[5.5px]
+        transition-colors duration-[600ms] ease-in-out
+        sm:w-[55px] sm:h-[55px] 
         xl:w-[70px] xl:h-[70px]
         circle
         ${isHover ? "bg-black" : "reverse box_shadow bg-yellow"}
         `}
       >
-        <img
+        <Image
           src="/assets/icons/arrow.svg"
           alt="Arrow Icon"
           className="w-full rotate-90"
+          width={6}
+          height={46}
         />
+
       </div>
       <p
         className={`
