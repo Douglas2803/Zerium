@@ -1,5 +1,5 @@
 import React from "react";
-import NavLink from "../../Nav-link/page";
+import NavLink from "../../Nav-link/Nav-link";
 import Image from "next/image";
 
 const Logo = () => {
@@ -11,12 +11,15 @@ const Logo = () => {
           src="/assets/images/logo-icone-sm.webp"
           height={38}
           width={46}
+          objectFit="cover"
+          layout="intrinsic"
           alt="Icone logo"
         />
         <Image
           src="/assets/images/logo-nome-sm.webp"
-          height={50}
-          width={115}
+          height={58}
+          width={116}
+          objectFit="cover"
           alt="Icone logo"
         />
       </div>
@@ -28,12 +31,14 @@ const Logo = () => {
           src="/assets/images/logo-icone-md.webp"
           height={55}
           width={68}
+          objectFit="cover"
           alt="Icone logo"
         />{" "}
         <Image
           src="/assets/images/logo-nome-md.webp"
           height={73}
           width={168}
+          objectFit="cover"
           alt="Icone logo"
         />
       </div>
@@ -44,12 +49,14 @@ const Logo = () => {
           src="/assets/images/logo-icone-lg.webp"
           height={77}
           width={95}
+          objectFit="cover"
           alt="Icone logo"
         />
         <Image
           src="/assets/images/logo-nome-md.webp"
-          height={103}
-          width={237}
+          height={74}
+          width={169}
+          objectFit="cover"
           alt="Icone logo"
         />
       </div>
