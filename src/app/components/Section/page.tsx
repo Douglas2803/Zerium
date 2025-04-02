@@ -1,3 +1,4 @@
+import ComoFunciona from "./Como-Funciona/page";
 import Hero from "./Hero/page";
 
 const Section = () => {
@@ -5,6 +6,7 @@ const Section = () => {
     <main className="container">
       <div className="relative flex flex-col sm:flex-row">
         <Hero />
+        <ComoFunciona />
       </div>
     </main>
   );
