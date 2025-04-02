@@ -22,7 +22,8 @@ export default {
         stroke_blue: "rgba(20, 22, 154, 0.25)",
       },
       fontFamily: {
-        sans: ["var(--font-main)"],
+        sans: ["var(--font-roboto)", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       screens: {
         "8xl": "3200px",
