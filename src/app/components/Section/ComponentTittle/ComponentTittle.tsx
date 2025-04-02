@@ -6,10 +6,11 @@ import React, { ReactNode, useState } from "react";
 interface ComponentsTittleProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   tittle: string;
-  children: ReactNode
+  children: ReactNode;
+  className?: string;
 }
 
-const ComponentTittle = ({ tittle, children }: ComponentsTittleProps) => {
+const ComponentTittle = ({ tittle, children, className }: ComponentsTittleProps) => {
   const [isOpen, setIsOpen] = useState(true);
 
   const handleButton = () => {
@@ -17,8 +18,8 @@ const ComponentTittle = ({ tittle, children }: ComponentsTittleProps) => {
   };
 
   return (
-    <div>
-      <div className="flex items-center justify-between linear_grey_1">
+    <div className={`${className}`}>
+      <div className="flex items-center justify-between linear_grey_1 mb-9">
         <div className="flex items-center gap-2">
           <Image
             alt="Quadrado"
@@ -48,7 +49,7 @@ const ComponentTittle = ({ tittle, children }: ComponentsTittleProps) => {
           )}
         </button>
       </div>
-      
+
       {isOpen ? <div>{children}</div> : ""}
     </div>
   );
