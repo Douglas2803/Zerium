@@ -36,6 +36,9 @@ body{
   pointer-events: none;
 }
 
+.linear_black_card{
+  background: linear-gradient(to bottom,#202020,#2d2d2d,#1d1d1d);
+}
 
 .hero_background {
   height: 100vh;
