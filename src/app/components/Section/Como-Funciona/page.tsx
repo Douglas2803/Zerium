@@ -5,11 +5,26 @@ import Card from "./Card/Card";
 const ComoFunciona = () => {
   return (
     <ComponentTittle tittle={"Como funciona?"}>
-      <Card
-        number={1}
-        title="Consultoria"
-        text="Nós iremos atender e esclarecer suas necessidades para um maior alinhamento do objetivo da sua empresa com o mercado."
-      />
+      <div className="flex flex-col gap-6">
+        <Card
+          number={1}
+          title="Consultoria"
+          text="Nós iremos atender e esclarecer suas necessidades para um maior alinhamento do objetivo da sua empresa com o mercado."
+        />
+
+        <Card
+          number={2}
+          title="Orçamento gratuito"
+          text="O próximo passo é o orçamento. Iremos
+        anlisar a consuloria e suas necessidades, para orçar o projeto de forma precisa e eficiente."
+        />
+
+        <Card
+          number={3}
+          title="Fechamento de contrato"
+          text="Agora com tudo pronto, iremos enviar um contrato de serviço para garantia e sua segurança do serviço prestado"
+        />
+      </div>
     </ComponentTittle>
   );
 };
