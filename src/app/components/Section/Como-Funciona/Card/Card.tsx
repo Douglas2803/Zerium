@@ -15,16 +15,21 @@ interface CardProps {
 
 const Card = ({ number, title, text }: CardProps) => {
   return (
-    <div className="flex flex-col items-center justify-end h-[468px] gap-[62px] border rounded-lg border-stroke_blue px-4 pb-12 linear_black_card">
-      <div className="flex flex-col gap-4 items-center pt-[132px]">
+    <div
+      className="flex flex-col items-center justify-end h-[468px] gap-[62px] lg:gap-[77px] border rounded-lg border-stroke_blue px-4 pb-12 linear_black_card
+    sm:h-[467px] lg:h-[500px] sm:w-[328px] lg:w-[389px]"
+    >
+      <div className="flex flex-col gap-4 items-center pt-[100px]">
         <Image
           alt={`icone ${number}`}
           src={urlList[number - 1]}
           width={40}
           height={36}
         />
-        <h3 className="text-grey_3 text-lg font-bold">{title}</h3>
-        <p className="text-grey_1 text-sm">{text}</p>
+        <h3 className="text-grey_3 text-lg sm:text-[23px] lg:text-[28px] font-bold">
+          {title}
+        </h3>
+        <p className="text-grey_1 sm:text-sm lg:text-lg">{text}</p>
       </div>
 
       <p className="text-[64px] linear_grey_1 font-poppins italic font-bold w-fit">

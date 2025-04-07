@@ -4,8 +4,8 @@ import Card from "./Card/Card";
 
 const ComoFunciona = () => {
   return (
-    <ComponentTittle tittle={"Como funciona?"}>
-      <div className="flex flex-col gap-6">
+    <ComponentTittle tittle={"Como funciona?"} className="sm:mt-[575px]">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-6 justify-center">
         <Card
           number={1}
           title="Consultoria"
@@ -16,7 +16,7 @@ const ComoFunciona = () => {
           number={2}
           title="Orçamento gratuito"
           text="O próximo passo é o orçamento. Iremos
-        anlisar a consuloria e suas necessidades, para orçar o projeto de forma precisa e eficiente."
+          anlisar a consuloria e suas necessidades, para orçar o projeto de forma precisa e eficiente."
         />
 
         <Card
