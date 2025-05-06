@@ -16,8 +16,9 @@ interface CardProps {
 const Card = ({ number, title, text }: CardProps) => {
   return (
     <div
-      className="flex flex-col items-center justify-end h-[468px] gap-[62px] lg:gap-[77px] border rounded-lg border-stroke_blue px-4 pb-12 linear_black_card
-    sm:h-[467px] lg:h-[500px] sm:w-[328px] lg:w-[389px]"
+      className="flex flex-col items-center justify-end h-[468px] xl:h-[520px] gap-[62px] lg:gap-[77px]
+      border rounded-lg border-stroke_blue px-4 pb-12 linear_black_card
+      flex-grow basis-0 min-w-[300px] max-w-full"
     >
       <div className="flex flex-col gap-4 items-center pt-[100px]">
         <Image
