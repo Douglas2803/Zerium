@@ -9,7 +9,7 @@ const Paralax = () => {
         <ParalaxItem x={2} />
       </div>
       <div className="flex flex-col gap-4 lg:gap-6">
-        <h1 className="text-left linear_grey_1 text-[23px]">Cases</h1>
+        <h1 className="text-left linear_grey_1 text-2xl lg:text-4xl">Cases</h1>
         <ParalaxItem x={3} />
         <ParalaxItem x={4} />
       </div>
