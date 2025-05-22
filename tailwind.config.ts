@@ -18,7 +18,7 @@ export default {
         grey_2: "#636363",
         grey_3: "#CFCFCF",
         grey_4: "#323232",
-        yellow: "#F2762E",
+        orange: "#F2762E",
         stroke_blue: "rgba(20, 22, 154, 0.25)",
       },
       fontFamily: {

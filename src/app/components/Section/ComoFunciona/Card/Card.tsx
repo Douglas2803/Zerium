@@ -27,9 +27,11 @@ const Card = ({ number, title, text }: CardProps) => {
           width={40}
           height={36}
         />
+
         <h3 className="text-grey_3 text-lg sm:text-[23px] lg:text-[28px] font-bold">
           {title}
         </h3>
+        
         <p className="text-grey_1 sm:text-sm lg:text-lg">{text}</p>
       </div>
 

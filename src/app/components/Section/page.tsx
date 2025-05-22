@@ -1,4 +1,5 @@
 import ComoFunciona from "./ComoFunciona/ComoFunciona";
+import CriaProjeto from "./CriaProjeto/CriaProjeto";
 import Hero from "./Hero/page";
 import { OQueFazemos } from "./OQueFazemos/OQueFazemos";
 
@@ -9,6 +10,7 @@ const Section = () => {
         <Hero />
         <ComoFunciona />
         <OQueFazemos />
+        <CriaProjeto />
       </div>
     </main>
   );

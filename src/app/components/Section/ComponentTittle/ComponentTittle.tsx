@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React, { ReactNode, useState } from "react";
+import ButtonOrange from "../../Button-orange/ButtonOrange";
 
 interface ComponentsTittleProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -9,6 +10,7 @@ interface ComponentsTittleProps
   subTittle?: string;
   children: ReactNode;
   className?: string;
+  isTrue?: boolean;
 }
 
 const ComponentTittle = ({
@@ -16,6 +18,7 @@ const ComponentTittle = ({
   subTittle,
   children,
   className,
+  isTrue,
 }: ComponentsTittleProps) => {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -25,7 +28,8 @@ const ComponentTittle = ({
 
   return (
     <div className={`${className} flex flex-col gap-9`}>
-        <div className="flex flex-col gap-4">
+      <div className="flex flex-col  gap-5 sm:flex-row justify-between items-center">
+        <div className="flex flex-col gap-4 w-full">
           <div className="flex justify-between w-full">
             <div className="flex items-center gap-2">
               <Image
@@ -60,6 +64,8 @@ const ComponentTittle = ({
           <p className="text-left text-grey_1 text-sm sm:text-lg">
             {subTittle}
           </p>
+        </div>
+        <ButtonOrange text="Começar" disabled={isTrue} className="inline-block text-center" />
       </div>
 
       {isOpen && <div>{children}</div>}
