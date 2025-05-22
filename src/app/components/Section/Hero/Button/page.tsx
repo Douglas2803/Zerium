@@ -25,7 +25,7 @@ const Button = () => {
       sm:w-[300px]  sm:h-[65px] sm-item
       xl:h-[82px] xl:w-[420px]
       transition-colors duration-[600ms] ease-in-out
-      ${isHover ? "bg-yellow" : ""}
+      ${isHover ? "bg-orange" : ""}
      `}
     >
       <div
@@ -36,7 +36,7 @@ const Button = () => {
         sm:w-[55px] sm:h-[55px] 
         xl:w-[70px] xl:h-[70px]
         circle
-        ${isHover ? "bg-black" : "reverse box_shadow bg-yellow"}
+        ${isHover ? "bg-black" : "reverse box_shadow bg-orange"}
         `}
       >
         <Image
