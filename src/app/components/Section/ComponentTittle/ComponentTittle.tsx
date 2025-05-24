@@ -42,7 +42,7 @@ const ComponentTittle = ({
               <h2 className="text-[23px] linear_grey_1">{tittle}</h2>
             </div>
 
-            <button onClick={handleButton} className="sm:hidden ">
+            <button onClick={handleButton} className="sm:hidden">
               {isOpen ? (
                 <Image
                   alt="icone menos"
@@ -65,11 +65,7 @@ const ComponentTittle = ({
             {subTittle}
           </p>
         </div>
-        <ButtonOrange
-          text="Começar"
-          enable={isTrue}
-          className="inline-block text-center w-[200px]"
-        />
+        <ButtonOrange text="Começar" disabled={isTrue} className="inline-block text-center" />
       </div>
 
       {isOpen && <div>{children}</div>}
