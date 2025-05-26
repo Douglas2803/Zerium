@@ -3,7 +3,7 @@ import Form from "./Formulario";
 const SessaoFomrulario = () => {
   return (
     <div
-      className="flex flex-col items-center gap-9 sm:gap-11 sm:p-11 sm:shadow-lg sm:shadow-grey_1/20 mb-40
+      className="flex flex-col items-center gap-9 sm:gap-11 sm:p-11 sm:shadow-lg sm:shadow-grey_1/2
       sm:bg-[url('/assets/images/background-formulario-tablet.png')] lg:bg-[url('/assets/images/background-formulario-desktop.png')] 
       bg-no-repeat bg-cover bg-center"
     >
