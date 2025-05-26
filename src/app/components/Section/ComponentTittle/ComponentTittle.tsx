@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { ReactNode, useState } from "react";
-import ButtonOrange from "../../Button-orange/ButtonOrange";
+import ButtonOrange from "../../Button/Button";
 
 interface ComponentsTittleProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
