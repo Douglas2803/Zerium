@@ -2,6 +2,7 @@ import ComoFunciona from "./ComoFunciona/ComoFunciona";
 import CriaProjeto from "./CriaProjeto/CriaProjeto";
 import Hero from "./Hero/page";
 import { OQueFazemos } from "./OQueFazemos/OQueFazemos";
+import PerguntasFrequentes from "./PerguntasFrequentes/PerguntasFrequentes";
 
 const Section = () => {
   return (
@@ -11,6 +12,7 @@ const Section = () => {
         <ComoFunciona />
         <OQueFazemos />
         <CriaProjeto />
+        <PerguntasFrequentes />
       </div>
     </main>
   );
