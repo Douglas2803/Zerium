@@ -1,6 +1,6 @@
 import { IoIosArrowRoundDown } from "react-icons/io";
 import Lista from "./Lista/Lista";
-import ButtonOrange from "../../Button-orange/ButtonOrange";
+import ButtonOrange from "../../Button/Button";
 import "./style.sass";
 
 const PerguntasFrequentes = () => {

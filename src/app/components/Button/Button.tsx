@@ -3,15 +3,15 @@ import "./style.sass";
 
 import { SlCallIn } from "react-icons/sl";
 
-interface IButtonOrangeProps {
+interface IButtonProps {
     className?: string;
     text: string;
     enable?: boolean;
-    icon?: string;
+    icon?: boolean;
 }
 
 
-const ButtonOrange = ({className, text, enable = false, icon}:IButtonOrangeProps) => {
+const Button = ({className, text, enable = false, icon = false}:IButtonProps) => {
   return enable ? (
     <a
       className={`${className} text-white bg-orange text-lg flex items-center justify-center gap-2 h-11 rounded-full
@@ -19,10 +19,12 @@ const ButtonOrange = ({className, text, enable = false, icon}:IButtonOrangeProps
       `}
       href="https://wa.me/5554981229448"
     >
-      <SlCallIn className="w-[16px] h-[16px] rotate-90 hover:fill-black_1" />
+      {icon ? (
+        <SlCallIn className="w-[16px] h-[16px] rotate-90 hover:fill-black_1" />
+      ) : null}
       {text}
     </a>
   ) : null;
 }
 
-export default ButtonOrange
+export default Button;

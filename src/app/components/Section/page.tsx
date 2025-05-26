@@ -3,6 +3,7 @@ import CriaProjeto from "./CriaProjeto/CriaProjeto";
 import Hero from "./Hero/page";
 import { OQueFazemos } from "./OQueFazemos/OQueFazemos";
 import PerguntasFrequentes from "./PerguntasFrequentes/PerguntasFrequentes";
+import SessaoFomrulario from "./SessaoFormulario";
 
 const Section = () => {
   return (
@@ -13,6 +14,7 @@ const Section = () => {
         <OQueFazemos />
         <CriaProjeto />
         <PerguntasFrequentes />
+        <SessaoFomrulario />
       </div>
     </main>
   );
