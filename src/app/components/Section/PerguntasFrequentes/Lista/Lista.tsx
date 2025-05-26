@@ -66,7 +66,7 @@ const faqList: FAQItem[] = [
 
 const Lista = () => {
   return (
-    <div className="flex justify-center items-start flex-wrap gap-y-2 gap-x-5">
+    <div className="flex flex-col w-full gap-y-[0.5px] gap-x-5 divide-y divide-grey_2">
       {faqList.map((item, index) => (
         <Accordion key={index} title={item.title} content={item.content} />
       ))}
