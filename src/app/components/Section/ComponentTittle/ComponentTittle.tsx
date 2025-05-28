@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { ReactNode, useState } from "react";
-import ButtonOrange from "../../Button/Button";
+import Button from "../../Button/Button";
 
 interface ComponentsTittleProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -65,7 +65,7 @@ const ComponentTittle = ({
             {subTittle}
           </p>
         </div>
-        <ButtonOrange
+        <Button
           text="Começar"
           enable={isTrue}
           className="inline-block text-center w-[200px]"
