@@ -1,6 +1,6 @@
 import { IoIosArrowRoundDown } from "react-icons/io";
 import Lista from "./Lista/Lista";
-import ButtonOrange from "../../Button/Button";
+import Button from "../../Button/Button";
 import "./style.sass";
 
 const PerguntasFrequentes = () => {
@@ -20,7 +20,7 @@ const PerguntasFrequentes = () => {
 
         <IoIosArrowRoundDown className="w-11 h-11 text-grey_3 animate-bounce" />
 
-        <ButtonOrange
+        <Button
           icon="assets/icons/telefone.svg"
           text="(54) 981229448"
           enable={true}
