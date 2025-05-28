@@ -1,6 +1,6 @@
 import NavLink from "../../Nav-link/Nav-link";
 
-const contactList = [
+const contatoLista = [
   {
     name: "Whatsapp icon",
     image: "/assets/icons/whatsapp.svg",
@@ -19,10 +19,10 @@ const ContatoLista = () => {
   return (
     <>
       <ul className="w-full flex justify-center gap-5 h-6">
-        {contactList.map(({ name, image, url, altText }) => {
+        {contatoLista.map(({ name, image, url, altText }) => {
           return (
             <li key={name} className="h-6 w-6  fill-primary">
-              <NavLink href={url} >
+              <NavLink href={url}>
                 <img
                   src={image}
                   alt={altText}
