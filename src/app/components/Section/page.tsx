@@ -5,6 +5,8 @@ import { OQueFazemos } from "./OQueFazemos/OQueFazemos";
 import PerguntasFrequentes from "./PerguntasFrequentes/PerguntasFrequentes";
 import SessaoFomrulario from "./SessaoFormulario";
 
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+
 const Section = () => {
   return (
     <main className="container">
