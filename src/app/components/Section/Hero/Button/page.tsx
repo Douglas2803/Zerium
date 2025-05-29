@@ -10,6 +10,7 @@ const Button = () => {
   const mouseInHandler = () => {
     setIsHover(true);
   };
+
   const mouseOuHandler = () => {
     setIsHover(false);
   };
@@ -33,8 +34,8 @@ const Button = () => {
         flex justify-center items-center absolute
         rounded-full w-[51px] h-[51px] px-3
         transition-colors duration-[600ms] ease-in-out
-        sm:w-[55px] sm:h-[55px] 
-        xl:w-[70px] xl:h-[70px]
+        sm:w-[55px] sm:h-[55px]
+        xl:w-[70px] xl:h-[70px] ml-1
         circle
         ${isHover ? "bg-black" : "reverse box_shadow bg-orange"}
         `}

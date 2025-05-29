@@ -13,10 +13,10 @@ const navList = [
     text: "Perguntas frequentes",
     link: "#perguntas",
   },
-  {
-    text: "Cases",
-    link: "#cases",
-  },
+  // {
+  //   text: "Cases",
+  //   link: "#cases",
+  // },
 ];
 
 interface INavListProps {

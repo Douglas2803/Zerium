@@ -9,6 +9,7 @@ const Hero = () => {
         <Title />
         <Button />
       </div>
+      
       <Paralax />
     </>
   );
