@@ -12,7 +12,9 @@ export default function Home() {
     <>
       <div className="hero_background" />
       <Header />
+
       <Section />
+
       <FloatingWhatsApp
         phoneNumber="5554981229448"
         accountName="Atendimento - Douglas"
@@ -20,6 +22,7 @@ export default function Home() {
         statusMessage="Geralmente responde em até 1 hora"
         chatMessage="Olá tudo bem ? Como posso te ajudar ? "
       />
+      
       <Footer />
     </>
   );
