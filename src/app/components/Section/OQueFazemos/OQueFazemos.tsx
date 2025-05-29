@@ -8,6 +8,7 @@ const OQueFazemos = () => {
       subTittle={
         "Nossa missão é aumentar sua produtividade dos negócios e fortalecer sua marca. Nós desenvolvemos soluções que otimizarão sua visibilidade no mercado te deixando no topo nos motores de buscas, agilizando processos e fortalecendo sua marca."
       }
+      id="que"
     >
       <div className="flex justify-center flex-wrap gap-6">
         <Card

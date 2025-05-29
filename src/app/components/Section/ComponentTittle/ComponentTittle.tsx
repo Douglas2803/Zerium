@@ -11,6 +11,7 @@ interface ComponentsTittleProps
   children: ReactNode;
   className?: string;
   isTrue?: boolean;
+  id?: string
 }
 
 const ComponentTittle = ({
@@ -19,6 +20,7 @@ const ComponentTittle = ({
   children,
   className,
   isTrue,
+  id,
 }: ComponentsTittleProps) => {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -27,7 +29,7 @@ const ComponentTittle = ({
   };
 
   return (
-    <div className={`${className} flex flex-col gap-9`}>
+    <div className={`${className} flex flex-col gap-9`} id={id}>
       <div className="flex flex-col  gap-5 sm:flex-row justify-between items-center">
         <div className="flex flex-col gap-4 w-full">
           <div className="flex justify-between w-full">

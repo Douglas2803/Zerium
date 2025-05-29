@@ -7,6 +7,7 @@ const ComoFunciona = () => {
     <ComponentTittle
       tittle={"Como funciona?"}
       className="sm:mt-[575px]"
+      id="como"
     >
       <div className="flex flex-col sm:flex-row sm:flex-wrap gap-6 justify-center">
         <Card
