@@ -1,4 +1,4 @@
-import NavLink from "../../Nav-link/page";
+import NavLink from "../../../Nav-link/Nav-link";
 
 const navList = [
   {
@@ -13,10 +13,10 @@ const navList = [
     text: "Perguntas frequentes",
     link: "#perguntas",
   },
-  {
-    text: "Cases",
-    link: "#cases",
-  },
+  // {
+  //   text: "Cases",
+  //   link: "#cases",
+  // },
 ];
 
 interface INavListProps {
@@ -39,4 +39,4 @@ const NavList = ({ className }: INavListProps) => {
   );
 };
 
-export { NavList };
+export default NavList;

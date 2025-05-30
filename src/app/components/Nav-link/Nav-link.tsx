@@ -2,11 +2,12 @@ import React, { ComponentProps, ReactNode } from "react";
 
 interface NavLinkProps extends ComponentProps<"a"> {
   children: ReactNode;
+  heref?: string;
 }
 
-const NavLink = ({ children, ...props }: NavLinkProps) => {
+const NavLink = ({ children, href, ...props }: NavLinkProps) => {
   return (
-    <a {...props}>
+    <a {...props} href={href}>
       {children}
     </a>
   );
