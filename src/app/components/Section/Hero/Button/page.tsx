@@ -53,8 +53,8 @@ const Button = () => {
         className={`
           pl-[65.85px] absolute
           transition-colors duration-[600ms] ease-in-out
-          sm:ml-1
-          xl:text-[34px] xl:pl-[80px]
+          sm:ml-1 lg:ml-2
+          xl:text-[34px] xl:pl-[80px] text-center
           ${isHover ? "text-black_1" : ""}
           `}
       >
