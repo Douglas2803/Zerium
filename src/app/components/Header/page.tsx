@@ -19,8 +19,12 @@ const Header = () => {
   return (
     <header className="container flex justify-between items-center pt-6">
       <Logo />
-      <Hamburguer onClick={toggleSidebar} isAnimate={isAnimate}/>
-      <Sidebar active={sidebarVisible}/>
+
+      <div className="relative">
+        <Hamburguer onClick={toggleSidebar} isAnimate={isAnimate} />
+
+        <Sidebar active={sidebarVisible} />
+      </div>
     </header>
   );
 };
