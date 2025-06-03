@@ -28,8 +28,11 @@ const NavList = ({ className }: INavListProps) => {
     <ul className={`${className}`}>
       {navList.map(({ text, link }) => {
         return (
-          <li key={text} className="text-sm sm:text-lg py-2">
-            <NavLink className="hover:underline " href={link}>
+          <li key={text} className="py-2">
+            <NavLink
+              className="hover:underline text-lg"
+              href={link}
+            >
               {text}
             </NavLink>
           </li>
