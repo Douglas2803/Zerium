@@ -28,12 +28,18 @@ body{
 .linear_black_paralax::before{
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: -3px;
-  width: 110%;
-  height: 60%;
-  background: linear-gradient(to bottom, rgba(25, 25, 25, 0), rgba(25, 25, 25, 0.041), rgba(25, 25, 25, 0.818), rgb(25, 25, 25), rgba(25, 25, 25, 1));
+  width: 101.5%;
+  height: 40%;
+  background: linear-gradient(to bottom, rgba(24,24,24, 0), rgba(24,24,24, 0.041), rgba(24,24,24, 0.818), rgb(24,24,24), rgba(24,24,24, 1));
   pointer-events: none;
+}
+
+@media (min-width:641px) and (min-width: 2000px) {
+  .linear_black_paralax::before{
+    display: none;
+  }
 }
 
 .linear_black_card{
