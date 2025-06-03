@@ -18,7 +18,7 @@ const Card = ({ number, title, text }: CardProps) => {
     <div
       className="flex flex-col items-center justify-end h-[468px] xl:h-[520px] gap-[62px] lg:gap-[77px]
       border rounded-lg border-stroke_blue px-[18px] p-12 linear_black_card
-      flex-grow basis-0 min-w-[300px] sm:max-w-[328px] lg:max-w-full"
+      flex-grow basis-0 min-w-[300px] sm:max-w-[328px] lg:max-w-[389.33px]"
     >
       <div className="flex flex-col gap-4 items-center">
         <Image
@@ -31,7 +31,7 @@ const Card = ({ number, title, text }: CardProps) => {
         <h3 className="text-grey_3 text-lg sm:text-[23px] lg:text-[28px] font-bold">
           {title}
         </h3>
-        
+
         <p className="text-grey_1 sm:text-sm lg:text-lg">{text}</p>
       </div>
 
