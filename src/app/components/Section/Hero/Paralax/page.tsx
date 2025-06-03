@@ -2,7 +2,7 @@ import ParalaxItem from "./Paralax-Item/Paralax-Item";
 
 const Paralax = () => {
   return (
-    <div className="flex sm:absolute right-[0] sm:top-[210px] lg:top-[36px] lg:right-[71px] gap-6 text-white mt-[74px] linear_black_paralax">
+    <div className="flex mx-auto sm:absolute right-[0] sm:top-[250px] lg:top-[36px] lg:right-[71px] gap-6 text-white mt-[74px] linear_black_paralax">
       <div className="flex flex-col gap-4 md:gap-6">
         <ParalaxItem x={0} />
         <ParalaxItem x={1} />
