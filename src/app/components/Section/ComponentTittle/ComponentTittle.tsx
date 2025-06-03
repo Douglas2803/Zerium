@@ -52,7 +52,7 @@ const ComponentTittle = ({
               <h2 className="text-[23px] linear_grey_1">{tittle}</h2>
             </div>
 
-            <button onClick={handleButton}>
+            <button onClick={handleButton} className="sm:hidden">
               {isOpen ? (
                 <Image
                   alt="icone menos"
