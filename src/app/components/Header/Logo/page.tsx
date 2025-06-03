@@ -6,36 +6,38 @@ const Logo = () => {
   return (
     <NavLink className="block" href="/">
       {/* Telas pequenas */}
-      <div className="flex sm:hidden gap-1">
+      <div className="flex sm:hidden">
         <Image
-          src="/assets/images/logo-icone-sm.webp"
+          src="/assets/icons/logo-zerium.svg"
           height={38}
-          width={46}
+          width={40}
           objectFit="cover"
           layout="intrinsic"
           alt="Icone logo"
         />
+        
         <Image
-          src="/assets/images/logo-nome-sm.webp"
-          height={58}
-          width={116}
+          src="/assets/icons/logo-nome-zerium.svg"
+          height={60}
+          width={150}
           objectFit="cover"
           alt="Icone logo"
         />
       </div>
 
       {/* Telas médias */}
-      <div className="hidden sm:flex md:hidden gap-[6px]">
+      <div className="hidden sm:flex md:hidden">
         <Image
           className="hidden sm:block md:hidden"
-          src="/assets/images/logo-icone-md.webp"
-          height={55}
-          width={68}
+          src="/assets/icons/logo-zerium.svg"
+          height={60}
+          width={55}
           objectFit="cover"
           alt="Icone logo"
         />{" "}
+
         <Image
-          src="/assets/images/logo-nome-md.webp"
+          src="/assets/icons/logo-nome-zerium.svg"
           height={73}
           width={168}
           objectFit="cover"
@@ -44,18 +46,19 @@ const Logo = () => {
       </div>
 
       {/* Telas grandes*/}
-      <div className="hidden md:flex gap-2">
+      <div className="hidden md:flex">
         <Image
-          src="/assets/images/logo-icone-lg.webp"
-          height={77}
-          width={95}
+          src="/assets/icons/logo-zerium.svg"
+          height={60}
+          width={65}
           objectFit="cover"
           alt="Icone logo"
         />
+
         <Image
-          src="/assets/images/logo-nome-md.webp"
-          height={74}
-          width={169}
+          src="/assets/icons/logo-nome-zerium.svg"
+          height={80}
+          width={200}
           objectFit="cover"
           alt="Icone logo"
         />
