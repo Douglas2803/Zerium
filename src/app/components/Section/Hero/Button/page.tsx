@@ -16,7 +16,8 @@ const Button = () => {
   };
 
   return (
-    <button
+    <a
+      href="https://wa.me/5554981229448"
       onMouseEnter={mouseInHandler}
       onMouseLeave={mouseOuHandler}
       className={`
@@ -47,9 +48,8 @@ const Button = () => {
           width={6}
           height={46}
         />
-
       </div>
-      <p
+      <button
         className={`
           pl-[65.85px] absolute
           transition-colors duration-[600ms] ease-in-out
@@ -59,8 +59,8 @@ const Button = () => {
           `}
       >
         Pedir orçamento
-      </p>
-    </button>
+      </button>
+    </a>
   );
 };
 
