@@ -92,7 +92,7 @@ const Formulario = () => {
           <div className="flex flex-col items-start flex-1">
             <label
               htmlFor="name"
-              className="text-sm sm:text-lg mb-3 text-grey_2 bg-black_1"
+              className="text-sm sm:text-lg mb-3 text-grey_2 text-center bg-black_1"
             >
               Qual seu nome ?
             </label>
@@ -106,13 +106,14 @@ const Formulario = () => {
               onChange={(event: ChangeEvent<HTMLInputElement>) =>
                 setName(event.target.value)
               }
-              className="h-11 rounded-lg w-full border border-grey_2 bg-black_1 focus:outline-none focus:bg-[#b2b4ff]/25 text-grey_3"
+              className="h-11 rounded-lg w-full border border-grey_2 bg-black_1 focus:outline-none focus:bg-[#b2b4ff]/25 text-grey_3
+              text-left pl-4"
             />
           </div>
           <div className="flex flex-col items-start flex-1">
             <label
               htmlFor="email"
-              className="text-sm sm:text-lg mb-3 text-grey_2"
+              className="text-sm sm:text-lg mb-3 text-grey_2 text-center"
             >
               Qual seu e-mail ?
             </label>
@@ -127,14 +128,15 @@ const Formulario = () => {
               onChange={(event: ChangeEvent<HTMLInputElement>) =>
                 setEmail(event.target.value)
               }
-              className="h-11 rounded-lg w-full border border-grey_2 bg-black_1 focus:outline-none focus:bg-[#b2b4ff]/25 text-grey_3 "
+              className="h-11 rounded-lg w-full border border-grey_2 bg-black_1 focus:outline-none focus:bg-[#b2b4ff]/25
+              text-grey_3 text-left pl-4"
             />
           </div>
         </div>
         <div className="flex flex-col items-start ">
           <label
             htmlFor="phone"
-            className="text-sm sm:text-lg mb-3 text-grey_2"
+            className="text-sm sm:text-lg mb-3 text-grey_2 text-center"
           >
             Telefone
           </label>
@@ -146,7 +148,8 @@ const Formulario = () => {
             id="phone"
             required
             value={phone}
-            className="h-11 rounded-lg w-full border border-grey_2 bg-black_1 focus:outline-none focus:bg-[#b2b4ff]/25 text-grey_3 lg:max-w-[436px]"
+            className="h-11 rounded-lg w-full border border-grey_2 bg-black_1 focus:outline-none focus:bg-[#b2b4ff]/25 text-grey_3
+            text-left pl-4 lg:max-w-[436px]"
             onChange={(event: ChangeEvent<HTMLInputElement>) =>
               setPhone(cellNUmberMask(event.target.value))
             }
@@ -155,7 +158,7 @@ const Formulario = () => {
         <div className="flex flex-col items-start">
           <label
             htmlFor="message"
-            className="text-sm sm:text-lg mb-3 text-grey_2"
+            className="text-sm sm:text-lg mb-3 text-grey_2 text-center"
           >
             Fale sobre seu negócio
           </label>
@@ -167,7 +170,8 @@ const Formulario = () => {
             onChange={(event: ChangeEvent<HTMLTextAreaElement>) =>
               setMessage(event.target.value)
             }
-            className="h-32 my-auto rounded-lg w-full border border-grey_2 bg-black_1 focus:outline-none focus:bg-[#b2b4ff]/25 text-grey_3"
+            className="h-32 my-auto rounded-lg w-full border border-grey_2 bg-black_1 focus:outline-none focus:bg-[#b2b4ff]/25
+            text-grey_3 text-left pl-4 pt-4"
           />
         </div>
 
