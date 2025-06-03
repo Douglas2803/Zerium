@@ -24,11 +24,11 @@ const Title = () => {
 
           <span className="sm:text-left">Aplicações móveis</span>
         </p>
-        <p className="hidden text-2xl text-grey_1 xl:text-[33px] xl:flex ">
+        <p className="hidden text-2xl text-grey_1 xl:text-[33px] xl:flex xl:gap-1">
           <span className="sm:text-left whitespace-nowrap">Site,</span>
           
           <span className="sm:text-left whitespace-nowrap">
-            Aplicações web,
+            Aplicações web,  
           </span>
 
           <span className="sm:text-left whitespace-nowrap">
