@@ -6,7 +6,7 @@ const ComoFunciona = () => {
   return (
     <ComponentTittle
       tittle={"Como funciona?"}
-      className="sm:mt-[575px]"
+      className="sm:mt-[575px] scroll-mt-2 sm:scroll-mt-8"
       id="como"
     >
       <div className="flex flex-col sm:flex-row sm:flex-wrap gap-6 justify-center">

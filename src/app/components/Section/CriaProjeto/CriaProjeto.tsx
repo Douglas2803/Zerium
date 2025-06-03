@@ -7,7 +7,7 @@ const CriaProjeto = () => {
     <ComponentTittle
       tittle="Criar seu projeto"
       subTittle="Escolha sua necessidade"
-      className="flex flex-col gap-20"
+      className="flex flex-col gap-20 sm:scroll-mt-8"
       isTrue={true}
     >
       <div className="flex flex-col justify-center sm:flex-row sm:flex-wrap gap-6">

@@ -5,7 +5,10 @@ import "./style.sass";
 
 const PerguntasFrequentes = () => {
   return (
-    <div id="perguntas" className="flex flex-col gap-11">
+    <div
+      id="perguntas"
+      className="flex flex-col gap-11 scroll-mt-2 sm:scroll-mt-8"
+    >
       <div className=" flex flex-col items-center gap-5">
         <div className="w-[152px] sm:w-[178px] h-1 rounded-sm bg-blue_1 drop_shadow_perguntas_frequentes"></div>
 
