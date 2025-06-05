@@ -11,6 +11,7 @@ interface IBoxProps {
   numberOfTime: number;
   value: string;
   textButton: string;
+  className?: string;
 }
 
 const Card = ({
@@ -20,11 +21,11 @@ const Card = ({
   numberOfTime,
   value,
   textButton,
+  className,
 }: IBoxProps) => {
   return (
     <div
-      className="flex flex-col justify-between flex-grow basis-0 gap-20 p-6 linear_black_card border rounded-lg border-stroke_blue
-    sm:max-w-[328px] sm:min-w-[328px] lg:min-w-[389.33px] lg:h-[600px] lg:max-w-[389.33px]"
+      className={`flex flex-col justify-between flex-grow basis-0 gap-20 p-6 linear_black_card border rounded-lg border-stroke_blue min-h-[312px] sm:min-h-[592px] ${className || ""}`}
     >
       <div className="flex flex-col gap-4 items-start">
         <h3 className="text-grey_3 text-lg sm:text-[23px] font-bold text-left">

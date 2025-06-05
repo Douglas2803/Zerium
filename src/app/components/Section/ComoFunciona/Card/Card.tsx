@@ -4,21 +4,21 @@ import React from "react";
 const urlList: string[] = [
   "assets/icons/porco.svg",
   "assets/icons/maos.svg",
-  "assets/icons/pergaminho.svg"
+  "assets/icons/pergaminho.svg",
 ];
 
 interface CardProps {
   number: number;
   title: string;
   text: string;
+  className?: string;
 }
 
-const Card = ({ number, title, text }: CardProps) => {
+const Card = ({ number, title, text, className }: CardProps) => {
   return (
     <div
-      className="flex flex-col items-center justify-end h-[468px] xl:h-[520px] gap-[62px] lg:gap-[77px]
-      border rounded-lg border-stroke_blue px-[18px] p-12 linear_black_card
-      flex-grow basis-0 min-w-[300px] sm:max-w-[328px] lg:max-w-[389.33px]"
+      className={`flex flex-col items-center justify-end sm:min-h-[468px] xl:h-[520px] gap-[62px] lg:gap-[77px]
+      border rounded-lg border-stroke_blue px-[18px] p-12 linear_black_card ${className || ""}`}
     >
       <div className="flex flex-col gap-4 items-center">
         <Image

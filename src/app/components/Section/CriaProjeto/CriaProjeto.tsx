@@ -10,7 +10,7 @@ const CriaProjeto = () => {
       className="flex flex-col gap-20 sm:scroll-mt-8"
       isTrue={true}
     >
-      <div className="flex flex-col justify-center sm:flex-row sm:flex-wrap gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-8 lg:grid-cols-12 gap-6">
         <Card
           title="Site Profissional"
           list={[
@@ -24,6 +24,7 @@ const CriaProjeto = () => {
           numberOfTime={3}
           value="489,99"
           textButton="Garantir preço baixo"
+          className="sm:col-span-4 lg:col-span-4"
         />
 
         <Card
@@ -39,6 +40,7 @@ const CriaProjeto = () => {
           numberOfTime={3}
           value="699,99"
           textButton="Falar com um especialista"
+          className="sm:col-span-4 lg:col-span-4"
         />
 
         <Card
@@ -55,6 +57,7 @@ const CriaProjeto = () => {
           numberOfTime={3}
           value="999,00"
           textButton="Falar com um especialista"
+          className="sm:col-span-4 lg:col-span-4"
         />
 
         <Card
@@ -68,6 +71,7 @@ const CriaProjeto = () => {
           numberOfTime={3}
           value="550,00"
           textButton="Falar com um especialista"
+          className="sm:col-span-4 lg:col-span-4 lg:col-start-3"
         />
 
         <Card
@@ -81,6 +85,7 @@ const CriaProjeto = () => {
           numberOfTime={3}
           value="1.499,00"
           textButton="Falar com um especialista"
+          className="sm:col-span-4 sm:col-start-3 lg:col-span-4"
         />
       </div>
     </ComponentTittle>
