@@ -8,7 +8,7 @@ interface ICardProps {
 const Card = ({ title, text, iconURL, iconAlt }: ICardProps) => {
   return (
     <div
-      className="flex flex-col items-left justify-start h-[200px] p-[18px] gap-4
+      className="flex flex-col items-left justify-start p-[18px] gap-4
       border rounded-lg border-stroke_blue linear_black_card
       flex-grow basis-0 min-w-[300px] sm:max-w-[324px] lg:max-w-[389.33px]"
     >
