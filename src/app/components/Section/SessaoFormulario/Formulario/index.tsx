@@ -92,7 +92,7 @@ const Formulario = () => {
           <div className="flex flex-col items-start flex-1">
             <label
               htmlFor="name"
-              className="text-sm sm:text-lg mb-3 text-grey_2 text-center bg-black_1"
+              className="text-sm sm:text-lg mb-3 text-grey_2 text-center"
             >
               Qual seu nome ?
             </label>
