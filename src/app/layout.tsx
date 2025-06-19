@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     siteName: "Zerium",
     images: [
       {
-        url: "https://www.seusitezerium.com.br/assets/images/og-image.jpg", // URL absoluta da imagem para Open Graph (coloque a imagem em public/assets/images/)
+        url: "/assets/images/banner-redes-sociais.png",
         width: 1200,
         height: 630,
-        alt: "Zerium - Soluções digitais para seu negócio", // Texto alternativo da imagem
+        alt: "Zerium - Soluções digitais para seu negócio",
       },
     ],
     locale: "pt_BR",
