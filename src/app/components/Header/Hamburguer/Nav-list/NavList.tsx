@@ -30,7 +30,7 @@ const NavList = ({ className }: INavListProps) => {
         return (
           <li key={text} className="py-2">
             <NavLink
-              className="hover:underline text-lg"
+              className="hover:underline text-lg lg:text-2xl"
               href={link}
             >
               {text}
