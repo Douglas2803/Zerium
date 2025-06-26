@@ -1,11 +1,10 @@
-'use client';
+"use client";
 
-import { Footer } from "./components/Footer";
-import Header from "./components/Header/page";
+import { Footer } from "./components/Footer/index";
+import Header from "./components/Header";
 import Section from "./components/Section/page";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-
 
 export default function Home() {
   return (
@@ -22,7 +21,7 @@ export default function Home() {
         statusMessage="Geralmente responde em até 1 hora"
         chatMessage="Olá tudo bem ? Como posso te ajudar ? "
       />
-      
+
       <Footer />
     </>
   );
