@@ -3,15 +3,15 @@ import NavLink from "../../Nav-link/Nav-link";
 const navLista = [
   {
     text: "Politica de Privacidade",
-    link: "#",
+    link: "/politica-de-privacidade",
   },
   {
-    text: "Termos de Serviços",
-    link: "#",
+    text: "Termos de Serviço",
+    link: "/termos-de-servico",
   },
   {
     text: "Cookies e Configuração",
-    link: "#",
+    link: "/politica-de-privacidade",
   },
 ];
 
