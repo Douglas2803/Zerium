@@ -3,6 +3,7 @@ import CriaProjeto from "./CriaProjeto/CriaProjeto";
 import Hero from "./Hero/page";
 import { OQueFazemos } from "./OQueFazemos/OQueFazemos";
 import PerguntasFrequentes from "./PerguntasFrequentes/PerguntasFrequentes";
+import Portfolio from "./portfolio";
 import SessaoFomrulario from "./SessaoFormulario";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
@@ -16,6 +17,7 @@ const Section = () => {
         <OQueFazemos />
         <CriaProjeto />
         <PerguntasFrequentes />
+        <Portfolio />
         <SessaoFomrulario />
       </div>
     </main>
