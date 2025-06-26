@@ -9,7 +9,7 @@ const faqList: FAQItem[] = [
   {
     title: "Quais são os serviços que vocês oferecem?",
     content:
-      "Oferecemos desenvolvimento de sites personalizados, e-commerce, aplicações móveis e web, além de soluções como otimização de performance e integração de APIs.",
+      "Oferecemos desenvolvimento de sites prontos e personalizados, Integração com IA, e-commerce, aplicações móveis e web, além de soluções como otimização de performance e integração de APIs.",
   },
   {
     title:
