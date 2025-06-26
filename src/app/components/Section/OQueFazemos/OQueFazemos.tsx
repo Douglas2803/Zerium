@@ -19,10 +19,22 @@ const OQueFazemos = () => {
           iconURL="/assets/icons/criacaodesites.svg"
         />
         <Card
+          title="Integrações com IA"
+          text="Integramos soluções de inteligência artificial aos seus sistemas, automatizando processos e otimizando a performance do seu negócio com tecnologia de ponta."
+          iconAlt="icone"
+          iconURL="/assets/icons/AI.svg"
+        />
+        <Card
+          title="Aplicações Web"
+          text="Desenvolvemos aplicações web customizadas, robustas e escaláveis para atender as demandas específicas do seu negócio."
+          iconAlt="icone"
+          iconURL="/assets/icons/aplicacoesweb.svg"
+        />
+        <Card
           title="Criação de Apps"
           text="Criamos Apps modernos e que podem ser integrados com sistemas web."
           iconAlt="icone"
-          iconURL="/assets/icons/criacaodeapps.svg"
+          iconURL="/assets/icons/aplicacoesmobile.svg"
         />
         <Card
           title="SEO"
@@ -32,7 +44,7 @@ const OQueFazemos = () => {
         />
         <Card
           title="Host"
-          text="Serviços de hospedagem de sites, cloud computing, servidores dedicados e VPS."
+          text="Serviços de hospedagem de sites, servidores dedicados e VPS."
           iconAlt="icone"
           iconURL="/assets/icons/host.svg"
         />
