@@ -24,7 +24,7 @@ const Footer = () => {
             <NavLista />
 
             <p className="text-sm sm:text-lg text-grey_2 text-center">
-              @ 2024 Zerium. Todos os direitos reservados
+              &copy; 2025 Zerium. Todos os direitos reservados
             </p>
           </div>
         </div>
