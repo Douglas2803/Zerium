@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { ContatoLista } from "./contato-lista";
 import { NavLista } from "./nav-lista";
 
 const Footer = () => {
@@ -20,7 +19,8 @@ const Footer = () => {
         <div className="border-grey_2 border-t-[1px] ">
           <div
             className="flex flex-col sm:flex-row-reverse sm:justify-between sm:items-center
-            gap-8 mt-8">
+            gap-8 mt-8"
+          >
             <NavLista />
 
             <p className="text-sm sm:text-lg text-grey_2 text-center">

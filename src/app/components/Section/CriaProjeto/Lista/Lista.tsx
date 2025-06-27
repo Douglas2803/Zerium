@@ -9,7 +9,10 @@ const List = ({ list }: IListProps) => {
     <ul className=" flex flex-col items-start gap-2">
       {list.map((item, index) => {
         return (
-          <li key={index} className="flex gap-2 text-left text-grey_1 text-sm sm:text-lg font-normal">
+          <li
+            key={index}
+            className="flex gap-2 text-left text-grey_1 text-sm sm:text-lg font-normal"
+          >
             <img src="/assets/icons/check.svg" alt="Icone check" />
             {item}
           </li>

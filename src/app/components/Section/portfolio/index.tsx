@@ -6,7 +6,7 @@ const Portfolio = () => {
       <h2 className="text-2xl sm:text-[28px] lg:text-4xl linear_grey_1">
         Alguns de nossos cases de sucesso
       </h2>
-      
+
       <Carousel />
     </section>
   );

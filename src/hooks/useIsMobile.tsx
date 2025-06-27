@@ -1,29 +1,29 @@
-'use client';
+"use client";
 
 import { useEffect, useState } from "react";
 
 const useIsMobile = (breackpoint: number = 600) => {
-    const isClient = typeof window !== "undefined";
+  const isClient = typeof window !== "undefined";
 
-    const [isMobile, setIsMobile] = useState<boolean>(
-        isClient ? window.innerWidth <= breackpoint : false
-    )
-    
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= breackpoint)
-        };
+  const [isMobile, setIsMobile] = useState<boolean>(
+    isClient ? window.innerWidth <= breackpoint : false,
+  );
 
-        handleResize();
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= breackpoint);
+    };
 
-        window.addEventListener("resize", handleResize)
+    handleResize();
 
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, [breackpoint]);
-    
-    return isMobile;
-}
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [breackpoint]);
+
+  return isMobile;
+};
 
 export default useIsMobile;

@@ -1,17 +1,20 @@
-import Image from "next/image";
 import "./style.sass";
 
 import { SlCallIn } from "react-icons/sl";
 
 interface IButtonProps {
-    className?: string;
-    text: string;
-    enable?: boolean;
-    icon?: boolean;
+  className?: string;
+  text: string;
+  enable?: boolean;
+  icon?: boolean;
 }
 
-
-const Button = ({className, text, enable = false, icon = false}:IButtonProps) => {
+const Button = ({
+  className,
+  text,
+  enable = false,
+  icon = false,
+}: IButtonProps) => {
   return enable ? (
     <a
       className={`${className} text-white bg-orange text-lg flex items-center justify-center gap-2 h-11 rounded-full
@@ -25,6 +28,6 @@ const Button = ({className, text, enable = false, icon = false}:IButtonProps) =>
       {text}
     </a>
   ) : null;
-}
+};
 
 export default Button;

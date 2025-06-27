@@ -23,15 +23,12 @@ const ComponentTittle = ({
   isTrue,
   id,
 }: ComponentsTittleProps) => {
-
   const isMobile = useIsMobile();
   const [isOpen, setIsOpen] = useState<boolean>(!isMobile);
 
   useEffect(() => {
     setIsOpen(!isMobile);
   }, [isMobile]);
-
-
 
   const handleButton = () => {
     setIsOpen(!isOpen);

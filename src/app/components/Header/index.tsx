@@ -26,7 +26,7 @@ const Header = () => {
 
       <div className="relative md:hidden">
         <Hamburguer onClick={toggleSidebar} isAnimate={isAnimate} />
-        
+
         <Sidebar active={sidebarVisible} />
       </div>
     </header>
