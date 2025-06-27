@@ -57,7 +57,7 @@ const PoliticaDePrivacidadePage = () => {
             </li>
           </ul>
 
-          <h2>3. Cookies e Tecnologias de Rastreamento</h2>  
+          <h2>3. Cookies e Tecnologias de Rastreamento</h2>
           <p>
             Nosso site utiliza cookies para melhorar a funcionalidade e a
             experiência do usuário. Cookies são pequenos arquivos de dados que

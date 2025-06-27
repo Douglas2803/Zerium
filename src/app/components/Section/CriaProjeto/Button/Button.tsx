@@ -7,9 +7,7 @@ interface IButtonProps {
 
 const Button = ({ text }: IButtonProps) => {
   return (
-    <button
-      className="h-[42px] text-grey_3 border rounded-full btn_transition"
-    >
+    <button className="h-[42px] text-grey_3 border rounded-full btn_transition">
       <a
         href="https://wa.me/5554981229448"
         className="flex justify-center items-center gap-4 font-bold text-sm sm:text-base w-full h-full"

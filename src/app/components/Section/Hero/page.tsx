@@ -1,6 +1,6 @@
-import Button from "./Button/page"
+import Button from "./Button/page";
 import Paralax from "./Paralax/page";
-import Title from "./Title/page"
+import Title from "./Title/page";
 
 const Hero = () => {
   return (
@@ -9,10 +9,10 @@ const Hero = () => {
         <Title />
         <Button />
       </div>
-      
+
       <Paralax />
     </>
   );
-}
+};
 
-export default Hero
+export default Hero;

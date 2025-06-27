@@ -14,7 +14,7 @@ const TermosDeServicoPage = () => {
           <p>
             <strong>Última atualização:</strong> 23 de junho de 2025
           </p>
-          
+
           <p>
             Bem-vindo à Zerium! Ao acessar e usar nosso site, você concorda em
             cumprir e estar sujeito aos seguintes termos e condições de uso.
@@ -25,7 +25,7 @@ const TermosDeServicoPage = () => {
             A Zerium oferece uma variedade de serviços de desenvolvimento de
             software, incluindo, mas não se limitando a:
           </p>
-          
+
           <div className="flex justify-center">
             <ul>
               <li>Criação de sites</li>
@@ -53,11 +53,11 @@ const TermosDeServicoPage = () => {
 
           <h2>4. Isenção de Garantias e Limitação de Responsabilidade</h2>
           <p>
-            O site e seu conteúdo são fornecidos "como estão". A Zerium não
-            oferece garantias de qualquer tipo, expressas ou implícitas, sobre a
-            operação do site ou as informações, conteúdos, materiais ou produtos
-            incluídos neste site. Você concorda expressamente que o uso deste
-            site é por sua conta e risco.
+            O site e seu conteúdo são fornecidos &quot;como estão&quot;. A
+            Zerium não oferece garantias de qualquer tipo, expressas ou
+            implícitas, sobre a operação do site ou as informações, conteúdos,
+            materiais ou produtos incluídos neste site. Você concorda
+            expressamente que o uso deste site é por sua conta e risco.
           </p>
 
           <h2>5. Links para Sites de Terceiros</h2>

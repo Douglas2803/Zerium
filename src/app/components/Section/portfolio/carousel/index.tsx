@@ -1,8 +1,3 @@
-// import leonardo from "/images/leonardo.webp";
-import lixozero from "/assets/images/lixo-zero.webp";
-import fuvir from "/assets/images/fuvir.webp";
-import quindim from "/assets/images/quindim.webp";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination, Keyboard } from "swiper/modules";
 

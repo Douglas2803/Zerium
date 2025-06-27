@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "next": "15.1.7",
+    "next": "^15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-floating-whatsapp": "^5.0.8",
@@ -28,6 +28,7 @@
     "@types/react-dom": "^19.1.4",
     "eslint": "^9.21.0",
     "eslint-config-next": "15.1.7",
+    "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.2.5",
     "eslint-plugin-react": "^7.37.4",
     "globals": "^16.0.0",

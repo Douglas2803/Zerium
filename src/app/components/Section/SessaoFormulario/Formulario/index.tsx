@@ -63,7 +63,7 @@ const Formulario = () => {
         "service_rpsqfcn",
         "template_lx6ixga",
         templateParams,
-        "TGpHPJTJFebg_rh9k"
+        "TGpHPJTJFebg_rh9k",
       )
       .then((response) => {
         console.log("Email enviado", response);

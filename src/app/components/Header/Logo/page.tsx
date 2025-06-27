@@ -15,7 +15,7 @@ const Logo = () => {
           layout="intrinsic"
           alt="Icone logo"
         />
-        
+
         <Image
           src="/assets/icons/logo-nome-zerium.svg"
           height={60}
@@ -35,7 +35,6 @@ const Logo = () => {
           objectFit="cover"
           alt="Icone logo"
         />{" "}
-
         <Image
           src="/assets/icons/logo-nome-zerium.svg"
           height={73}

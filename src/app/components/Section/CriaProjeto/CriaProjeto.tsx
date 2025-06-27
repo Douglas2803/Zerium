@@ -1,6 +1,6 @@
-import React from 'react'
-import ComponentTittle from '../ComponentTittle/ComponentTittle'
-import Card from './Card/Card';
+import React from "react";
+import ComponentTittle from "../ComponentTittle/ComponentTittle";
+import Card from "./Card/Card";
 
 const CriaProjeto = () => {
   return (
@@ -90,6 +90,6 @@ const CriaProjeto = () => {
       </div>
     </ComponentTittle>
   );
-}
+};
 
-export default CriaProjeto
+export default CriaProjeto;
