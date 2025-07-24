@@ -1,4 +1,6 @@
+import AnimateOnScrool from "../../AnimateOnScrool/AnimateOnScrool";
 import "./style.sass";
+import "@/app/styles/animacoes.sass";
 
 interface IPropsHamburguer
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -7,19 +9,21 @@ interface IPropsHamburguer
 
 const Hamburguer = ({ isAnimate, ...props }: IPropsHamburguer) => {
   return (
-    <button
-      className={`md:hidden ${isAnimate ? "activate" : ""}`}
-      id="hamburguer"
-      aria-label="Botão hamburguer"
-      {...props}
-    >
-      <span className="linha"></span>
-      <span className="linha"></span>
-      <span className="linha"></span>
-      <span id="menu-label" className="sr-only">
-        Botão menu
-      </span>
-    </button>
+    <AnimateOnScrool className="slide-show-smooth">
+      <button
+        className={`md:hidden ${isAnimate ? "activate" : ""}`}
+        id="hamburguer"
+        aria-label="Botão hamburguer"
+        {...props}
+      >
+        <span className="linha"></span>
+        <span className="linha"></span>
+        <span className="linha"></span>
+        <span id="menu-label" className="sr-only">
+          Botão menu
+        </span>
+      </button>
+    </AnimateOnScrool>
   );
 };
 

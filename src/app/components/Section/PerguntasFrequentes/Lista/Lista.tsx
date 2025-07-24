@@ -1,3 +1,4 @@
+import AnimateOnScrool from "@/app/components/AnimateOnScrool/AnimateOnScrool";
 import Accordion from "../Accordion/Accordion";
 
 interface FAQItem {
@@ -68,7 +69,9 @@ const Lista = () => {
   return (
     <div className="flex flex-col w-full gap-y-[0.5px] gap-x-5 divide-y divide-grey_2">
       {faqList.map((item, index) => (
-        <Accordion key={index} title={item.title} content={item.content} />
+        <AnimateOnScrool key={index} className="slide-right">
+          <Accordion title={item.title} content={item.content} />
+        </AnimateOnScrool>
       ))}
     </div>
   );
