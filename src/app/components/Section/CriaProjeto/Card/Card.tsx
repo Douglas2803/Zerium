@@ -41,6 +41,9 @@ const Card = ({
           <p className="text-grey_3 text-sm">A partir de {numberOfTime}X de</p>
 
           <p className="text-[32px] text-grey_3 font-bold">R$ {value}</p>
+          <p className="text-sm text-grey_2 font-bold">
+            com 15% de desconto à vista
+          </p>
         </div>
 
         <Button text={textButton} />
