@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: "Zerium",
 
   description:
-    "A Zerium é especialista na criação de sites, aplicativos, e-commerce e soluções digitais para turbinar seu negócio e fortalecer sua marca.",
+    "A Zerium é especialista na criação de sites, integrações com IA,  aplicativos, e-commerce e soluções digitais para turbinar seu negócio e fortalecer sua marca.",
 
   openGraph: {
     title: "Zerium",
     description:
-      "A Zerium é especialista na criação de sites, aplicativos, e-commerce e soluções digitais para turbinar seu negócio e fortalecer sua marca.",
+      "A Zerium é especialista na criação de sites, integrações com IA, aplicativos, e-commerce e soluções digitais para turbinar seu negócio e fortalecer sua marca.",
     url: "https://www.zerium.com.br/",
     siteName: "Zerium",
     images: [
