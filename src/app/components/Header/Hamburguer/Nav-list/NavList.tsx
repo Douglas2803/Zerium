@@ -1,3 +1,4 @@
+import AnimateOnScrool from "@/app/components/AnimateOnScrool/AnimateOnScrool";
 import NavLink from "../../../Nav-link/Nav-link";
 
 const navList = [
@@ -25,20 +26,22 @@ interface INavListProps {
 
 const NavList = ({ className }: INavListProps) => {
   return (
-    <ul className={`${className}`}>
-      {navList.map(({ text, link }) => {
-        return (
-          <li key={text} className="py-2">
-            <NavLink
-              className="hover:underline text-lg lg:text-2xl"
-              href={link}
-            >
-              {text}
-            </NavLink>
-          </li>
-        );
-      })}
-    </ul>
+    <AnimateOnScrool className="slide-show-smooth">
+      <ul className={`${className}`}>
+        {navList.map(({ text, link }) => {
+          return (
+            <li key={text} className="py-2">
+              <NavLink
+                className="hover:underline text-lg lg:text-2xl"
+                href={link}
+              >
+                {text}
+              </NavLink>
+            </li>
+          );
+        })}
+      </ul>
+    </AnimateOnScrool>
   );
 };
 

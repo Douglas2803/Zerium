@@ -1,0 +1,43 @@
+/* Animações Globais do Projeto */
+
+    // DURATION É O SEGUNDO
+    // DELAY É O QUARTO
+
+@mixin generate-animation($duration, $delay, $initial-y: 0, $initial-x: 0)
+    opacity: 0
+    transform: translate($initial-x, $initial-y)
+    transition: opacity $duration ease-in-out $delay,transform $duration ease-in-out $delay
+
+    &.is-visible
+        opacity: 1
+        transform: translate(0, 0)
+
+.slide-bottom
+    @include generate-animation(700ms, 1ms, $initial-y: -20px)
+
+.slide-left
+    @include generate-animation(700ms, 1ms, $initial-x: 20px)
+
+.slide-right
+    @include generate-animation(700ms, 400ms, $initial-x: -30px)
+
+.slide-show-smooth
+    @include generate-animation(600ms, 1ms)
+
+.slide-up-400
+    @include generate-animation(400ms, 1ms, $initial-y: 20px)
+
+.slide-up-450-200
+    @include generate-animation(450ms, 200ms, $initial-y: 20px)
+
+.slide-up-600-400
+    @include generate-animation(450ms, 400ms, $initial-y: 30px)
+
+.slide-up-delay-1
+    @include generate-animation(450ms, 400ms, $initial-y: 20px)
+
+.slide-up-delay-2
+    @include generate-animation(450ms, 400ms, $initial-y: 40px)
+
+.slide-up-delay-3
+    @include generate-animation(450ms, 400ms, $initial-y: 60px)

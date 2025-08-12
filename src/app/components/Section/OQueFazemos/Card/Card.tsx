@@ -1,3 +1,5 @@
+import AnimateOnScrool from "@/app/components/AnimateOnScrool/AnimateOnScrool";
+
 interface ICardProps {
   title: string;
   text: string;
@@ -7,10 +9,11 @@ interface ICardProps {
 
 const Card = ({ title, text, iconURL, iconAlt }: ICardProps) => {
   return (
-    <div
-      className="flex flex-col items-left justify-start p-[18px] gap-4
+    <AnimateOnScrool
+      className=" flex flex-col items-left justify-start p-[18px] gap-4
       border rounded-lg border-stroke_blue linear_black_card
-      flex-grow basis-0 min-w-[300px] sm:max-w-[324px] lg:max-w-[389.33px]"
+      flex-grow basis-0 min-w-[300px] sm:max-w-[324px] lg:max-w-[389.33px]
+      slide-right"
     >
       <div className="flex items-center gap-4">
         <img
@@ -30,7 +33,7 @@ const Card = ({ title, text, iconURL, iconAlt }: ICardProps) => {
           {text}
         </p>
       </div>
-    </div>
+    </AnimateOnScrool>
   );
 };
 

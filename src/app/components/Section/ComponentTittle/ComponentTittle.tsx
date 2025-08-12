@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { ReactNode, useEffect, useState } from "react";
 import Button from "../../Button/Button";
 import useIsMobile from "@/hooks/useIsMobile";
+import AnimateOnScrool from "../../AnimateOnScrool/AnimateOnScrool";
 
 interface ComponentsTittleProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -40,13 +41,18 @@ const ComponentTittle = ({
         <div className="flex flex-col gap-4 w-full">
           <div className="flex justify-between w-full">
             <div className="flex items-center gap-2">
-              <Image
-                alt="Quadrado"
-                src={"/assets/icons/quadrado.svg"}
-                width={24}
-                height={24}
-              />
-              <h2 className="text-[23px] linear_grey_1">{tittle}</h2>
+              <AnimateOnScrool className="slide-show-smooth">
+                <Image
+                  alt="Quadrado"
+                  src={"/assets/icons/quadrado.svg"}
+                  width={24}
+                  height={24}
+                />
+              </AnimateOnScrool>
+
+              <AnimateOnScrool className="slide-left">
+                <h2 className="text-[23px] linear_grey_1">{tittle}</h2>
+              </AnimateOnScrool>
             </div>
 
             <button onClick={handleButton} className="sm:hidden">
@@ -67,16 +73,19 @@ const ComponentTittle = ({
               )}
             </button>
           </div>
-
-          <p className="text-left text-grey_1 text-sm sm:text-lg">
-            {subTittle}
-          </p>
+          <AnimateOnScrool className="slide-up-600-400">
+            <p className="text-left text-grey_1 text-sm sm:text-lg">
+              {subTittle}
+            </p>
+          </AnimateOnScrool>
         </div>
-        <Button
-          text="Começar"
-          enable={isTrue}
-          className="inline-block text-center w-[200px]"
-        />
+        <AnimateOnScrool className="slide-show-smooth">
+          <Button
+            text="Começar"
+            enable={isTrue}
+            className="inline-block text-center w-[200px]"
+          />
+        </AnimateOnScrool>
       </div>
 
       {isOpen && <div>{children}</div>}
