@@ -8,7 +8,7 @@ const Logo = () => {
     <NavLink className="block" href="/">
       {/* Telas pequenas */}
       <div className="flex sm:hidden">
-        <AnimateOnScrool className="slide-bottom">
+        <AnimateOnScrool className="slide-bottom flex align-center">
           <Image
             src="/assets/icons/logo-zerium.svg"
             height={38}
