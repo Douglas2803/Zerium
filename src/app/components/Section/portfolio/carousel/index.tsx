@@ -18,7 +18,7 @@ const list: ListItem[] = [
   {
     title: "Quindim",
     content: "Acessoria de TI e suporte e desenvolvimento de site",
-    link: "https://www.institutoquindim.com.br/",
+    link: "https://www.lojaquindim.com/",
     image: "/assets/images/quindim.webp",
   },
   {
@@ -26,7 +26,7 @@ const list: ListItem[] = [
     content:
       "Sistema Web de Gerenciamento de Cadastros para a Semana Lixo Zero - Caxias do Sul.",
     image: "/assets/images/lixo-zero.webp",
-    link: "https://lixozerocaxias.vercel.app/",
+    link: "https://slz.caxiaslixozero.com.br",
   },
   {
     title: "Fuvir - Rede social",
